@@ -1,6 +1,6 @@
 import SingleArticle from './SingleArticle';
 
-const Article = ({ articles }) => {
+const Articles = ({ articles }) => {
   return (
     <div>
       {articles.map((article, index) => {
@@ -10,4 +10,4 @@ const Article = ({ articles }) => {
   );
 };
 
-export default Article;
+export default Articles;
